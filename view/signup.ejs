@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WPF Emergency</title>
+  <link rel="shortcut icon" type="image/jpg" href="/favicon.jpg"/>
+    <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/public/css/signin.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7074a20037.js" crossorigin="anonymous"></script>
+    <meta name="author" content="lectriweb">
+    <meta name="keywords" content="Emergency, health, find a hospital, Enugu">
+  </head>
+<body style="background-color: #f0d6eba8">
+<div class="row mt-5">
+  
+  <div class="col-md-6 m-auto">
+  <div class="card card-body">
+  
+  <h1 class="text-center mb-3">Register</h1>
+<%- include ('./partials/messages') %>
+<div id="content" class="flex">
+  
+  <div class="page-content page-container" id="page-content">
+      <div class="padding">
+         
+              <div  >
+                  <div class="card"  style="height:100vh;padding-top:150px;width :100%; margin: 0 50%;">
+                      <div class="card-header"><strong>Sign up</strong></div>
+                      <div class="card-body">
+<form action="/api/signup" method="POST">
+<div class="form-group">
+    <label for="name">Name</label>
+    <input class="form-control"
+      type="name"
+      name="name"
+      placeholder="Enter Name"
+      value="<%= typeof name != 'undefined' ? name : '' %>"
+    />
+  
+</div>
+<div class="form-group">
+    <label for="email">Email</label>
+    <input class="form-control"
+      type="email"
+      name="email"
+      placeholder="Enter Email"
+      value="<%= typeof email != 'undefined' ? email : '' %>"
+    />
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input class="form-control"
+      type="password"
+      name="password"
+      placeholder="Create Password"
+      value="<%= typeof password != 'undefined' ? password : '' %>"
+    />
+  </div>
+  <div class="form-group">
+    <label for="password2">Confirm Password</label>
+    <input class="form-control"
+      type="password"
+      name="password2"
+      placeholder="Confirm Password"
+      value="<%= typeof password2 != 'undefined' ? password2 : '' %>"
+    />
+  </div class="form-group">
+  <button type="submit" class="btn btn-primary btn-block">
+    Signup
+  </button>
+</form>
+<p >Have An Account? <a href="/api/signin">Signin</a></p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</body>
+<script
+src="https://code.jquery.com/jquery-3.1.1.min.js"
+integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+crossorigin="anonymous">
+</script>
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<!-- <script type="text/javascript" src="/js/scrollreveller.js"></script> -->
+<script type="text/javascript" src="/js/JavaScript.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

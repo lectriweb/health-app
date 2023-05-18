@@ -1,0 +1,15 @@
+/*variable color*/
+$color:(
+    priary:  #949857,
+    accent:     #3a2443,
+);
+
+body, html{
+    height:100%;
+}
+
+body{
+    background-color: map-get($color , primary);
+    margin:0;
+
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\curl\\data_myfiles"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

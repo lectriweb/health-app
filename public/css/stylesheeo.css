@@ -1,0 +1,70 @@
+*{
+   
+}
+
+body{
+    font: 15px/1.5 lucida, arial, helvetica,sans-serif;
+    padding: 0;
+    margin:0;
+    background-color: #f4f4ba;
+    width: 100%;
+    position: absolute;
+
+}
+header{
+    background-color: black;
+    color:rgb(206, 206, 206);
+    height:120px;
+    position:fixed;
+    top:0;
+    width: 100%;
+
+}
+header nav{
+    float:right;
+    margin-top:20px;
+}
+header ul{
+    padding:0;
+    margin: 0;
+    
+}
+ header li{
+     display:inline;
+     margin:20px;
+    
+ }
+  header #brand{
+     float:left;
+ }
+ .container h1{
+    display: block;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+.box{
+    width:30%;
+    float:left;
+}
+.box img{
+    width: 20%;
+    margin:  auto;
+}
+footer {
+    clear:left;
+    bottom: 0;
+    width:100%;
+    height: 120px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+footer div p{
+   margin:0 auto;
+   color: blanchedalmond;
+   text-align: center;
+
+}

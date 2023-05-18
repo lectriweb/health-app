@@ -1,0 +1,157 @@
+#header{
+	background-image: url(../../Untitled-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	padding: 300px;
+}
+
+#header-contact{
+	background-image: url(.././40974.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	padding: 130px;
+}
+#header-about{
+	background-image: url(.././image/hospital-near-me-magnifier-smartphone-screen_197170-687.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	filter: brightness(0.5)  grayscale(80%);
+}
+
+.emmaa{
+	background-image: url(.././3799283.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 130px;
+	filter: brightness(0.5)  grayscale(80%);
+}
+#header-meters{
+	background-image: url(.././3799283.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 130px;
+}
+#header2{
+	background-color: rgb(0, 0, 0, 0.2);
+	filter: brightness(0.6);
+}
+#header #p, #header-hse p, #header-contact p, #header-meters p, #header-team p{
+	font-weight: bold;
+	font-size: 3em;
+	color: #fff;
+	z-index: 1000;
+}
+#header-about p{
+	font-weight: bold;
+	font-size: 3em;
+	color: #fff;
+	z-index: 1000;
+}
+.top-about{
+	margin: 40px 0;
+}
+.address{
+	padding: 30px;
+	background-color: #f2f2f2;
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 20px;
+}
+.in-touch{
+	padding: 40px;
+	width: 70%;
+	margin: 0 auto;
+}
+.board{
+	padding: 40px;
+	background-color: #fff;
+	height: auto;
+	border-radius: 10px;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.board h3, .board p{
+	text-align: center;
+	margin: 20px 0;
+	opacity: .8;
+}
+.myslide1, .myslide2, .myslide3, .myslide4{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	color: rgb(141, 0, 0);
+	text-align: left;
+	padding: 300px 40px;
+}
+.myslide1{
+	background-image: url(.././3799283.jpg);
+}
+.myslide2{
+	background-image: url(.././3799283.jpg);
+}
+.myslide3{
+	background-image: url(.././slider.jpg);
+	opacity: 0.6;
+}
+.myslide4{
+	background-image: url(../Images/451207-PF8NKP-345.jpg);
+}
+#slide-txt{
+	font-size: 2.5em;
+	text-align: left;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.service-back1, .service-back2, .service-back3, .service-back4, .service-back5{
+	padding: 30px;
+	background-size: cover;
+	background-position: center;
+}
+.service-back1{
+	background-image: url(.././6.jpg);
+}
+.service-back2{
+	background-image: url(.././7.jpg);
+}
+.service-back3{
+	background-image: url(.././8.jpg);
+}
+.service-back4{
+	background-image: url(.././5.jpg);
+}
+.service-back5{
+	background-image: url(.././6.jpg);
+}
+#service1 i{
+	font-size: 8em;
+	color: #fff;
+	font-weight: bolder;
+}
+#service1 img ~ p{
+	color: #fff;
+	font-size: 1.6em;
+	padding: 20px 0;
+}
+#manager{
+	width: 40%; 
+	margin: 0 auto;
+	border: 1px solid #f1f1f1;
+}
+@media only screen and (max-width: 600px) {
+#manager{
+	width: 90%; 
+	
+}
+#header-meters p{
+	font-size: 2em;
+	text-shadow: 4px 4px 2px black;
+}
+#about p, #about h3{
+	text-align: left;
+}
+}
